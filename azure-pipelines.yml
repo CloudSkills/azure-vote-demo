@@ -45,7 +45,7 @@ stages:
     displayName: Deploy to dev
     pool:
       vmImage: $(vmImageName)
-    environment: 'AKSDemo.default'
+    environment: 'Development.default'
     strategy:
       runOnce:
         deploy:
